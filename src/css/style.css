@@ -1,0 +1,66 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+}
+
+.card{
+    width: 300px;
+    height: 350px;
+    border-radius: 15px;
+    margin-top: 170px;
+    background-color: #f7f1f1;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.foto-perfil{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    height: 100px;
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+}
+
+.cidade{
+    display: flex;
+    justify-content: center;
+    color: var(--text-color);
+}
+
+.informacoes{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+.numeros{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.informacoes li{
+    margin: 20px;
+}
+
+.age{
+    color: var(--text-color);
+}
+
+.card .foto-perfil .cidade .informacoes,
+.nome .numeros .age{
+    font-weight: 700;
+}
