@@ -1,4 +1,4 @@
-# Meu primero desafio fazendo sozinho
+# Desafio Frontend Mentor Profile card component
 
 Esse e meu primero projeto sozinho testando meus conhecimentos com HTML5 e CSS3. Utilizei tudo que eu aprende ao longo desses meses estudando essa duas linguagns de marcação e estilização. 
 
